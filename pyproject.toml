@@ -2,7 +2,7 @@
 name = "coursework-3"
 version = "0.1.0"
 description = ""
-authors = ["Johnny <evgenykiselev@aol.com>"]
+authors = ["Johnny <evgkisevgkis@gmail.com>"]
 readme = "README.md"
 packages = [{include = "coursework_3"}]
 
