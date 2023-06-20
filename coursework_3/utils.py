@@ -15,7 +15,7 @@ def sort_data(data):
     for i in data:
         if 'date' in i and i['state'] == 'EXECUTED':
             sorted_data.append(i)
-    sorted_data.sort(key=operator.itemgetter('date'))
+    sorted_data.sort(key=operator.itemgetter('date'), reverse=True)
     sorted_data = sorted_data[:5]
     return sorted_data
 
